@@ -1,0 +1,12 @@
+# On ne veut pas de fichiers venant de
+# datas
+
+datas/*
+
+# On veut garder le fichier zip d'origine
+!datas/projet.zip
+
+# On protège le fichier config.php car 
+# il ne doit pas se trouver sur git
+
+config.php
